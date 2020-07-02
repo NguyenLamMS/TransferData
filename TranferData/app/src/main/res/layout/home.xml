@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="WELLCOME"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tranfer Data"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tranfer data can move your data contacts, messenger, photo on old phone to your new phone"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animation_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_new_phone"
+            android:background="#fff"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/new_phone"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textSize="15dp"
+            android:paddingTop="15dp"
+            android:text="I'm a new phone" />
+
+        <Button
+            android:id="@+id/btn_old_phone"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:drawableTop="@drawable/old_phone"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="15dp"
+            android:text="I'm a old phone" >
+        </Button>
+    </LinearLayout>
+</LinearLayout>
